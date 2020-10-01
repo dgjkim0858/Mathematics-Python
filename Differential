@@ -1,0 +1,9 @@
+#
+# 미분(differential)
+#
+
+from sympy import Symbol, Derivative
+x = Symbol('x')
+fx = 3*x**2 - 2*x
+print(Derivative(fx, x).doit())
+print(Derivative(fx, x).doit().subs({x:3}))
