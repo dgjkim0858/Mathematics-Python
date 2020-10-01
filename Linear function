@@ -1,0 +1,12 @@
+#
+# 일차함수
+#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.arange(-1.0, 1.01, 0.01)
+y = 2*x
+plt.plot(x, y, label='y=2x')
+plt.legend()
+plt.show()
