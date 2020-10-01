@@ -1,0 +1,12 @@
+#
+# 삼각함수
+#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-np.pi, np.pi*2, 201)
+plt.plot(x, np.sin(x), label='sin')
+plt.plot(x, np.cos(x), label='cos')
+plt.legend()
+plt.show()
