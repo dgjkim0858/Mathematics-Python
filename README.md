@@ -1,4 +1,4 @@
-# Mathematics-Programming
+# Mathematics Programming
 
 일차함수(Linear function) 실행 결과 이미지<br>
 ![math1](https://user-images.githubusercontent.com/69303473/94761200-64489200-03df-11eb-93fa-7a5d89cd5903.PNG)<br>
@@ -17,3 +17,17 @@
 
 삼각함수(Trigonometrical function) 실행 결과 이미지<br>
 ![math6](https://user-images.githubusercontent.com/69303473/94761224-732f4480-03df-11eb-8479-2cd33676f594.PNG)<br>
+
+극한값(Limit value) 실행 결과<br>
+0<br>
+2<br>
+-log(5) + log(2)<br>
+1<br>
+
+미분(Differential) 실행 결과<br>
+6*x - 2<br>
+16<br>
+
+적분(Integral) 실행 결과<br>
+5*x**4/4 - x**3 - 2*x<br>
+8<br>
