@@ -1,0 +1,12 @@
+#
+# 삼차함수
+#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.arange(-1.0, 1.01, 0.01)
+y = x**3 - x
+plt.plot(x, y, label='y=x**3 - x')
+plt.legend()
+plt.show()
