@@ -1,0 +1,14 @@
+#
+# 유클리드 호제법
+#
+
+s = int(input('작은 수: '))
+b = int(input('큰 수: '))
+
+while True:
+  r = b % s
+  if r==0:
+    print('최대공약수:', s)
+    break
+  b = s
+  s = r
