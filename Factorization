@@ -1,0 +1,13 @@
+#
+# 소인수분해
+#
+
+prime = []
+n = int(input('소인수분해 할 수: '))
+x = 2
+while n != 1:
+  while n%x != 0:
+    x = x+1
+  prime.append(x)
+  n = n/x
+print(prime)
