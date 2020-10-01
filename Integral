@@ -1,0 +1,10 @@
+#
+# 적분(integral)
+#
+
+from sympy import Symbol, Integral
+x = Symbol('x')
+f = 5*x**3 - 3*x**2 - 2
+print(Integral(f, x).doit())
+f = 2*x
+print(Integral(f, (x, 1, 3)).doit())
