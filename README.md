@@ -1,4 +1,4 @@
-# Mathematics Programming
+# Mathematics Python
 
 일차함수(Linear function) 실행 결과<br>
 ![math1](https://user-images.githubusercontent.com/69303473/94761200-64489200-03df-11eb-93fa-7a5d89cd5903.PNG)<br>
