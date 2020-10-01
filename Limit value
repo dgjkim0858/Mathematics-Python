@@ -1,0 +1,10 @@
+#
+# 극한값(limit value)
+# 
+
+from sympy import Symbol, Limit, sqrt, S, log, sin
+n = Symbol('n')
+print(Limit(1/n, n, S.Infinity).doit())
+print(Limit(sqrt(n**2+4*n)-n, n, S.Infinity).doit())
+print(Limit(log(2*n+1)-log(5*n-2), n, S.Infinity).doit())
+print(Limit(sin(n)/n, n, 0).doit())
